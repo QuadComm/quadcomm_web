@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+	<head>
+    	<meta charset="UTF-8" />
+    	<link rel="stylesheet" href="style.css" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    	<title>Michael's website</title>
+  	</head>
+  	<body>
+    	<div id="app">
+    		<h1>Im<br>QuadComm.</h1>
+    		<p id="time">{TIME_STUFF}</p>
+			<button id="to_profile">My Profile</button>
+       	</div>
+    	<script type="module" src="appview.js"></script>
+    	<script src="node_modules/eruda/eruda.js"></script>
+    	<script>eruda.init();</script>
+ 	</body>
 </html>
