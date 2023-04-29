@@ -10,5 +10,5 @@ function update(){
 
 // Profuile button
 document.getElementById('to_profile').onclick = function() {
-	window.location.href = "https://www.facebook.com/jhnmchldlsrs?mibextid=ZbWKwL";
+	window.location.href = "https://fb.me/jhnmchldlsrs";
 };
